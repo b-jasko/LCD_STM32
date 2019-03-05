@@ -9,7 +9,7 @@ int main(void) {
 	LCD_Init();
 //	lcd_gpio_init();
 	gpio_pin_cfg(GPIOA, P5, gpio_mode_output_PP_50MHz);
-	lcd_write_str("dupa");
+	lcd_write_str("test");
 
 
 
